@@ -1,0 +1,40 @@
+.red-par { 
+	color: red;
+	font-size: 30px;
+	text-align: center;  
+}
+
+.green-par {
+ color: green;
+font-size: 30px;
+text-align: center;  
+}
+
+h1 {
+	font-style: 38px;
+font-weight: 100;
+}
+.foo {
+	text-transform: uppercase; 
+}
+#logo-batman {
+	height: 100px;
+
+}
+
+header > nav > ul {
+	float: right;
+	list-style-type: none;
+	display: flex;
+	/*padding:; */
+	margin: 2px; 
+}
+footer {
+	margin-top: 40px;
+	color: #fff;
+	background-color: #c0f; 
+	height: 50px;
+	text-align: center;
+	padding: 5px;
+	  
+}
