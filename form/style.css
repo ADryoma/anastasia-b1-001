@@ -1,0 +1,35 @@
+* {
+	font-family: 'Cinzel', serif;
+}
+
+.contact-form {
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+	border: 1px solid #000;
+	padding: 10px;
+	margin: 25px 0 0 50px;
+}
+
+.contact-form h1 {
+	text-align: center;
+}
+
+.contact-form input {
+	height: 35px;
+	background-color: #E5E5E5;
+	border: none;
+	border-radius: 3px;
+	margin: 5px 0 5px 0;
+	padding: 6px ;
+}
+
+.contact-form button {
+	background-color: #222;
+	color: #fff;
+	border: none;
+	border-radius: 3px;
+	margin-top: 10px;
+	height: 35px;
+
+}

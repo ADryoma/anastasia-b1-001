@@ -1,0 +1,74 @@
+* {
+	font-family: 'Cinzel', serif;
+}
+body {
+	margin: 0;
+}
+
+header {
+	background-image: url('hero.jpg');
+	min-height: 500px; 
+	background-position: bottom;
+	display: flex;
+}
+
+header a img {
+	height: 50px;
+}
+
+ul.menu li {
+	display: inline; 
+}
+
+ul.menu {
+	margin-left: auto;
+	margin-right: 6px;
+}
+
+ul.menu li a {
+	font-size: 40px;
+	font-size: 25px;
+    color: white;
+    text-decoration: none;
+    padding-right: 12px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+/* 
+  переход цвета
+*/
+
+ul.menu li a:hover {
+	color: red;
+	transition: ease-in-out .5s; 	
+}
+
+/*
+ul.menu li a:visited {
+	color: green;
+	transition: ease-in-out .5s; 	
+}
+*/
+
+.article {
+	padding: 0 20px;
+
+}
+
+.article a {
+	border: 1px solid #97002A;
+	text-decoration: none;
+	background-color: #97002A;
+	display: inline-block;		
+	height: 25px; 
+	width: 130px;
+	text-align: center;
+	color: white;
+	border-radius: 5px;
+}
+
+.article a:hover {
+	background-color: #5d0d67;
+	color: #96ace7;
+}

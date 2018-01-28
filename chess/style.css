@@ -1,0 +1,14 @@
+body {
+	background-color: #ff6666;
+}
+.black {
+	background-color: black;
+	color: #fff;
+}
+
+table {
+	width: 500px; 
+	height: 500px;
+	border: 1px solid #F8C3D6;
+    margin: auto;
+}
